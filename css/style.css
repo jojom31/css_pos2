@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+    background-color: brown;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+main {
+    margin: auto;
+    max-width: fit-content;
+}
+.float {
+    width: 100%;
+    border: solid 4px orangered; 
+    text-align: center;
+    background-color: blueviolet;
+    float: right;
+    
+}
+.float img {
+    float: left;
+}
+
+.flex {
+    display: inline-block;
+    float: right;
+    
+    border: solid 4px yellowgreen;
+    padding: 4;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+
+.flex img {
+    float: left;
+}
+.flex p {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 600px;
+}
